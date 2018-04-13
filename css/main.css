@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height:100px:
+  width: 50%;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: grey;
+}
+
+@media (max-width: 600px) {
+	.black, .white {
+		display: none;
+	}
+}
+@media (min-width: 1000px) {
+	.teal, .black, .white, .grey, .container {
+		width: 100%;
+	}
+}
+
+.container {
+  height: 200px;
+  width:200px;
+  background-color: blue;
+}
